@@ -1,0 +1,27 @@
+{
+  "name": "nbviewer",
+  "version": "0.0.0",
+  "description": "A minimal nbviewer",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/kokes/nbviewer.js",
+  "keywords": [
+    "jupyter",
+    "nbviewer"
+  ],
+  "author": "Ondrej Kokes",
+  "license": "CC",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.16.0"
+  },
+  "build": {
+    "appId": "com.electron.nbviewer",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}
